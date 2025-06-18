@@ -10,7 +10,6 @@ Design and implement a Chrome extension that serves as a lightweight Bittensor (
 
 ### 1. Basic Wallet Management
 - Create a simple UI (`popup.html`) with a clean, modern design
-- Implement a toggle between "Create" and "Import" wallet views
 - Add basic form validation for user inputs
 
 ### 2. Create Wallet
@@ -18,12 +17,7 @@ Design and implement a Chrome extension that serves as a lightweight Bittensor (
 - Display the 12-word mnemonic to the user
 - Implement a simple password protection mechanism
 
-### 3. Import Wallet
-- Allow users to input an existing 12-word mnemonic
-- Validate the mnemonic format
-- Implement the same password protection as the create flow
-
-### 4. Session Management
+### 3. Session Management
 - Implement a "Lock/Unlock" feature to manage the wallet session
 - Store wallet data securely using Chrome's storage APIs
 - Handle basic error cases and user feedback
